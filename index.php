@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo"Hello WOrld" ?>
+    <?php
+        echo readfile("test.txt"); 
+    ?>
 </body>
 </html>
